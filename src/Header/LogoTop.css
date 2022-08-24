@@ -1,0 +1,23 @@
+.logo-box {
+  position: absolute;
+  top: 40px;
+  left: 60px;
+}
+
+.logo {
+  height: 35px;
+}
+.logo:hover {
+  animation: waveZoom 3s infinite ease-out;
+}
+@keyframes waveZoom {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
